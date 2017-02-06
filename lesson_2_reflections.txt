@@ -1,0 +1,6 @@
+Use the command git init to initialize current folder - it will become a repository.
+But you have to make the initial commit yourself, the git wont do it for you.
+
+With the command git status you can see the files in the staging area(waiting for the commit) and untracked files in the repository.
+
+Use the command git add $name_of_the_file$ to add files to the staging area.
