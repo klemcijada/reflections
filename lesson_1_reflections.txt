@@ -1,0 +1,24 @@
+To find differences between two files use the terminal.
+Use the cd command to go to the folder where the files are.
+Then use the command: diff -u $name_of_the_old_file$ $name_of_the_new_file$
+
+Use mkdir to make a directory. Use ls to list the files in the directory. Use pwd to show the path to directory.
+To open sublime and make a new file in the current directory use: subl $name_of_new_file$
+
+Using a sophisticated version control system looses the clutter files in the working directory and saves you time.
+
+Use the command git diff $one_commit$ $second_commit$ to see the difference.
+
+The manual selection of commits lets you make the saved versions in logical steps.
+
+When coding, the files usually rely/call on one another. So a change in one file very likely induces a change in another.
+That's why a commit snapshots the whole repository -  all the files.
+
+To clone a repository to the current folder use the command git clone $url$
+To get the commits run the command git log inside the folder. Don't forget to scroll using arrows.
+To check the differences between two commits use the command git diff $name_of_previous$ $name_of_more_recent$
+
+Use git checkout $commit$ to revert to any previous state and debug or check if something works.
+This is helpful when a bug is introduced in an unexpected place - usually by a typo. Also knowing you can revert back is awesome.
+
+I can launch Sublime using the command subl.
