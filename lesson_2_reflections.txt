@@ -4,3 +4,27 @@ But you have to make the initial commit yourself, the git wont do it for you.
 With the command git status you can see the files in the staging area(waiting for the commit) and untracked files in the repository.
 
 Use the command git add $name_of_the_file$ to add files to the staging area.
+	When ready to commit use git commit to automatically open Sublime text, write the description, save and close. The commit is made.
+	Using the staging area you control what changes are commited, so you can control the size of commits.
+
+Use git checkout master to return to the most recent commit.
+
+
+Use git branch to get the list of branches.
+Using the command git checkout -b $name_of_new_branch$ you can simultaniously create a new branch and switch to it.
+	Use git branch $name_of_new_branch$ to make a new branch.
+	Use the command git checkout $name_of_branch$ to change the branch you are currently working on.
+	Branches help you when you want to have different versions of your application and not want to change the original.
+	They are also helpful when you are trying new features.
+
+
+If you want to checkout the difference between a commit and its parrent run the command git show.
+
+To merge two branches run the command git merge $branch1$ $branch2$ or just git merge $name_of_branch_to_merge_with$.
+
+	Git branch -d $name_of_branch$ deletes the label of the branch but keeps the commits.
+
+It's very useful to see the branches and merges as a graph and the command git log --graph --oneline does that.
+
+When there is an error on auto-merging you should go to the problematic file and resolve the issue(it is noted with <<<<<).
+Then you should add the file and commit it.
