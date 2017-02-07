@@ -1,0 +1,2 @@
+Connect to the remote repository using the command git remote add $name-usually_"origins"$ $url_of_the_remote_repository$.
+Use Github to colaborate and web backup files using the command git push $name_of_remote$ $name_local_of_a_branch$.
