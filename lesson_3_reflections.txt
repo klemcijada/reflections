@@ -1,3 +1,8 @@
 Connect to the remote repository using the command git remote add $name-usually_"origins"$ $url_of_the_remote_repository$.
 Use Github to colaborate and web backup files using the command git push $name_of_remote$ $name_local_of_a_branch$.
 Use the command git pull $name_of_remote$ $name_of_branch$. You pull manually because the remote could be changing.
+
+If you want to change someone elses repository use the github button "fork". Then use the command git clone $url$.
+
+Use git fetch $name_of_remote$ to download the online version as a copy. You can modify it offline.
+Then you can merge it with your own branch. To do this simultaniously use pull. Merge conflicts resolve same as locally.
